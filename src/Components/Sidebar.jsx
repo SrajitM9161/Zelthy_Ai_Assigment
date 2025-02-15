@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Button, IconButton, Dialog, Drawer } from "@mui/material";
 import { Event, BarChart, ArrowBack, CalendarToday, Brightness4, Brightness7, Close } from "@mui/icons-material";
 import { motion } from "framer-motion";
-import CreateEvent from "../Pages/CreateEvent";
+import CreateEvent from "../Pages/Createevent";
 
 const routes = [
   { path: "/contacts", label: "Contact", icon: <BarChart className="text-black dark:text-white" /> },
